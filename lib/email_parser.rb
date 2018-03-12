@@ -7,7 +7,7 @@ class EmailParser
  end
 
  def parse
-   emails.split(/\s|,\s/) do |email|
+   emails.split(/\s|,\s/).uniq do |email|
      @@parsed.uniq << email
    end
 end
