@@ -5,5 +5,5 @@
 class EmailParser
   attr_accessor :emails
   parser = EmailParser.new(emails)
-  end
+  
 end
