@@ -7,3 +7,4 @@ class EmailParser
   parser = EmailParser.new(emails)
   end
 end
+end
